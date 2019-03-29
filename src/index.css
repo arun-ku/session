@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #3498db;
+  padding: 45px 2px 5px 2px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px 25px;
+  display: inline-block;
+  font-weight: 600;
+  outline: none;
+}
+
+.navbar a:hover {
+  background: #2980b9;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  background: #ecf0f1;
+  flex: 1;
+  font-size: 18px;
+  color: #e67e22;
+}
+
+.main-container div {
+
+}
+
+.footer {
+  background: #2980b9;
+  padding: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.data-base {
+  display: inline-block;
+  float: right;
+}
